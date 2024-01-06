@@ -33,7 +33,6 @@ void quicksort(int x[], int first, int last) {
         quicksort(x, mid + 1, last);
     }
 }
-
 int partition(int x[], int p, int r) {
     int value, i, j, temp;
     value = x[r];
